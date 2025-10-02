@@ -1,268 +1,356 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extensión</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="icon" href="img/logodejarmedical.png"type="image/png">
-</head>
-<body>
-     <!-- Header -->
-     <header>
-        <div class="header-left">
-            <a href="https://www.jarmedical.com/" target="_blank" rel="noopener noreferrer">
-                <img src="img/JAR MEDICAL EXCEL.png" alt="Logo" class="logo">
-            </a>
-        </div>
-        <div class="header-right">
-            <a href="https://www.facebook.com/jarmedicalmx/" target="_blank">Facebook</a>
-            <a href="https://www.instagram.com/jarmedical/" target="_blank">Instagram</a>
-            <a href="https://www.youtube.com/@JARMedical" target="_blank">YouTube</a>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Extensión de Oficina</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/logodejarmedical.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="d-flex justify-content-between align-items-center flex-wrap">
+      <a href="https://www.jarmedical.com/" target="_blank" class="logo-link">
+        <img
+          src="img/JAR MEDICAL EXCEL.png"
+          alt="Logo"
+          class="logo img-fluid"
+        />
+      </a>
+      <div class="social-links mt-2 mt-sm-0">
+        <a href="https://www.facebook.com/jarmedicalmx/" target="_blank"
+          ><i class="bi bi-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/jarmedical/" target="_blank"
+          ><i class="bi bi-instagram"></i
+        ></a>
+        <a href="https://www.youtube.com/@JARMedical" target="_blank"
+          ><i class="bi bi-youtube"></i
+        ></a>
+      </div>
     </header>
 
-     <!-- Main Content -->
-     <main class="container my-5">
-        <div class="extension">
-            <h1>Extensión De Oficina</h1>
-        </div>
-        <div class="table-section">
-            <table class="table table-bordered table-striped table-hover">
-                <thead class="table-dark">
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Puesto</th>
-                        <th>Departamento</th>
-                        <th>Núm. de Extensión</th>
-                        <th>Correo</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Federico Rocha</td>
-                        <td>Aux. Administrativo</td>
-                        <td>Administración</td>
-                        <td>1000</td>
-                        <td><a class="email-link" href="mailto:recepcion@jarmedical.com">recepcion@jarmedical.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Ing. Jose Paez</td>
-                        <td>Director General</td>
-                        <td>Administración</td>
-                        <td>1001</td>
-                        <td><a class="email-link" href="mailto:jose.paez@jarmedical.com">jose.paez@jarmedical.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Mario Jasso</td>
-                        <td>Coord. de Distribución</td>
-                        <td>Almacen</td>
-                        <td>1002</td>
-                        <td><a class="email-link" href="mailto:distribucion@jarmedical.com">distribucion@jarmedical.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Arq. Fernando Camacho</td>
-                        <td>Gerente de Almacen</td>
-                        <td>Alamacen</td>
-                        <td>1003</td>
-                        <td><a class="email-link" href="mailto:fernando.camacho@jarmedical.com">fernando.camacho@jarmedical.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Lic. Ana Patricia</td>
-                        <td>Director de Calidad</td>
-                        <td>Administración</td>
-                        <td>1004</td>
-                        <td><a class="email-link" href="mailto:ana.sanchez@jarmedical.com">ana.sanchez@jarmedical.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Abigail Rocha</td>
-                        <td>Recursos Humanos</td>
-                        <td>Administración</td>
-                        <td>1005</td>
-                        <td><a class="email-link" href="mailto:rh@jarmedical.com">rh@jarmedical.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Lic. Pablo Moreno</td>
-                        <td>Director Administrativo</td>
-                        <td>Administración</td>
-                        <td>1006</td>
-                        <td><a class="email-link" href="mailto:pmoreno@jarmedical.com">pmoreno@jarmedical.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Veronica Frias</td>
-                        <td>Facturación</td>
-                        <td>Administración</td>
-                        <td>1007</td>
-                        <td><a class="email-link" href="mailto:veronica.frias@jarmedical.com">veronica.frias@jarmedical.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Roberto González</td>
-                        <td>Coord. de Almacen</td>
-                        <td>Almacen</td>
-                        <td>1008</td>
-                        <td><a class="email-link" href="mailto:almacenmty@jarmedical.com">almacenmty@jarmedical.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Ventas 2</td>
-                        <td>Ventas</td>
-                        <td>Ventas</td>
-                        <td>1009</td>
-                        <td><a class="email-link" href="mailto:"></a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Ing. Alejandra Pez</td>
-                        <td>Ing. Biomedica</td>
-                        <td>Administración</td>
-                        <td>1010</td>
-                        <td><a class="email-link" href="mailto:alepaezs@jarmedical.com">alepaezs@jarmedical.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Ing. Leonel Candelas</td>
-                        <td>Capacitación</td>
-                        <td>Capacitación</td>
-                        <td>1011</td>
-                        <td><a class="email-link" href="mailto:candelasl@evterapeutica.com">candelasl@evterapeutica.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Oficina Vacía</td>
-                        <td>Ventas</td>
-                        <td>Ventas</td>
-                        <td>1012</td>
-                        <td><a class="email-link" href="mailto:"></a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>July Rodríguez</td>
-                        <td>Cobranza</td>
-                        <td>Cuentas Por Pagar</td>
-                        <td>1013</td>
-                        <td><a class="email-link" href="mailto:july.rodriguez@jarmedical.com">july.rodriguez@jarmedical.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Ventas 1</td>
-                        <td>Ventas</td>
-                        <td>Ventas</td>
-                        <td>1014</td>
-                        <td><a class="email-link" href="mailto:"></a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Ing. Fidel Morales</td>
-                        <td>Gerente de Proyectos</td>
-                        <td>Proyectos</td>
-                        <td>1015</td>
-                        <td><a class="email-link" href="mailto:fidel.morales@jarmedical.com">fidel.morales@jarmedical.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Gustavo León</td>
-                        <td>Gerente de Marketing</td>
-                        <td>Mercadotecnia</td>
-                        <td>1016</td>
-                        <td><a class="email-link" href="mailto:gustavo.leon@jarmedical.com">gustavo.leon@jarmedical.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>No Disponible</td>
-                        <td>No Disponible</td>
-                        <td>No Disponible</td>
-                        <td>1017</td>
-                        <td><a class="email-link" href="mailto:"></a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Almacen</td>
-                        <td>Almacen</td>
-                        <td>Almacen</td>
-                        <td>1018</td>
-                        <td><a class="email-link" href="mailto:"></a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Alfonso Arcea</td>
-                        <td>Coord. de Embarques</td>
-                        <td>Almacen</td>
-                        <td>1019</td>
-                        <td><a class="email-link" href="mailto:embarques@jarmedical.com">embarques@jarmedical.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Juan Garcia</td>
-                        <td>Supervisor de Ventas</td>
-                        <td>Ventas</td>
-                        <td>1020</td>
-                        <td><a class="email-link" href="mailto:jgarcia@jarmedical.com">jgarcia@jarmedical.com</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Sin Seleccionar</td>
-                        <td>Sin Seleccionar</td>
-                        <td>Sin Seleccionar</td>
-                        <td>1021</td>
-                        <td><a class="email-link" href="mailto:"></a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr class="table-primary">
-                        <td>Sin Seleccionar</td>
-                        <td>Sin Seleccionar</td>
-                        <td>Sin Seleccionar</td>
-                        <td>1022</td>
-                        <td><a class="email-link" href="mailto:"></a></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+    <!-- Main Content -->
+    <main class="container my-5">
+      <div class="text-center mb-4">
+        <h1>
+          <i class="bi bi-telephone-forward-fill"></i> Extension de Oficina
+        </h1>
+  <p class="text-muted" style="font-weight:bold;">Directorio interno actualizado</p>
+      </div>
+
+      <div class="mb-3 d-flex justify-content-end">
+        <button
+          id="btnDescargarPDF"
+          class="btn descargar-pdf-btn"
+          style="
+            font-weight: 600;
+            background: #1f3471;
+            color: #fff;
+            border: none;
+            box-shadow: 0 2px 8px rgba(31, 52, 113, 0.07);
+            transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+          "
+        >
+          <i class="bi bi-file-earmark-pdf"></i> Descargar PDF
+        </button>
+      </div>
+
+      <div class="table-section table-responsive" id="tablaParaPDF">
+        <table class="table table-hover align-middle">
+          <thead>
+            <tr>
+              <th><i class="bi bi-person-badge-fill"></i> Nombre</th>
+              <th><i class="bi bi-briefcase-fill"></i> Puesto</th>
+              <th><i class="bi bi-building"></i> Departamento</th>
+              <th><i class="bi bi-telephone-fill"></i> Extensión</th>
+              <th style="position: relative">
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 0.5rem;
+                  "
+                >
+                  <span style="display: flex; align-items: center; gap: 0.4rem"
+                    ><i class="bi bi-envelope-fill"></i> Correo</span
+                  >
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <td>Omar Tristan</td>
+              <td>Aux. Administrativo</td>
+              <td>Administración</td>
+              <td><span class="badge bg-dark">1000</span></td>
+              <td>
+                <a class="email-link" href="mailto:recepcion@jarmedical.com"
+                  >recepcion@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Ing. Jose Paez</td>
+              <td>Director General</td>
+              <td>Administración</td>
+              <td><span class="badge bg-dark">1001</span></td>
+              <td>
+                <a class="email-link" href="mailto:jose.paez@jarmedical.com"
+                  >jose.paez@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Mario Jasso</td>
+              <td>Coord. de Distribución</td>
+              <td>Almacén</td>
+              <td><span class="badge bg-dark">1002</span></td>
+              <td>
+                <a class="email-link" href="mailto:distribucion@jarmedical.com"
+                  >distribucion@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Fernando Camacho</td>
+              <td>Gerente de Almacén</td>
+              <td>Almacén</td>
+              <td><span class="badge bg-dark">1003</span></td>
+              <td>
+                <a class="email-link" href="mailto:distribucion@jarmedical.com"
+                  >fernando.camacho@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Lic. Ana Patricia</td>
+              <td>Director de Calidad</td>
+              <td>Administración</td>
+              <td><span class="badge bg-dark">1004</span></td>
+              <td>
+                <a class="email-link" href="mailto:distribucion@jarmedical.com"
+                  >ana.sanchez@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Abigail Rocha</td>
+              <td>Recursos Humanos</td>
+              <td>Administración</td>
+              <td><span class="badge bg-dark">1005</span></td>
+              <td>
+                <a class="email-link" href="mailto:distribucion@jarmedical.com"
+                  >rh@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Lic. Pablo Moreno</td>
+              <td>Director Administrativo</td>
+              <td>Administración</td>
+              <td><span class="badge bg-dark">1006</span></td>
+              <td>
+                <a class="email-link" href="mailto:distribucion@jarmedical.com"
+                  >pmoreno@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Veronica Frías</td>
+              <td>Facturación</td>
+              <td>Administración</td>
+              <td><span class="badge bg-dark">1007</span></td>
+              <td>
+                <a class="email-link" href="mailto:distribucion@jarmedical.com"
+                  >veronica.frias@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Roberto González</td>
+              <td>Coord. de Almacén</td>
+              <td>Almacén</td>
+              <td><span class="badge bg-dark">1008</span></td>
+              <td>
+                <a class="email-link" href="mailto:distribucion@jarmedical.com"
+                  >almacenmty@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Nayeli Hernández</td>
+              <td>Coorda. de Marketing</td>
+              <td>Almacén</td>
+              <td><span class="badge bg-dark">1009</span></td>
+              <td>
+                <a class="email-link" href="mailto:distribucion@jarmedical.com"
+                  >distribucion@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Ing. Alejandra Paez</td>
+              <td>Ing. Biomedica</td>
+              <td>Administración</td>
+              <td><span class="badge bg-dark">1010</span></td>
+              <td>
+                <a class="email-link" href="mailto:distribucion@jarmedical.com"
+                  >distribucion@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Oficina Vacía</td>
+              <td>---</td>
+              <td>---</td>
+              <td><span class="badge bg-dark">1011</span></td>
+              <td><a class="email-link" href="mailto:#">#</a></td>
+            </tr>
+            <tr>
+              <td>Emilio Viveros</td>
+              <td>Gerente de Ventas</td>
+              <td>Almacén</td>
+              <td><span class="badge bg-dark">1012</span></td>
+              <td>
+                <a
+                  class="email-link"
+                  href="mailto:emilio.viveros@jarmedical.com"
+                  >emilio.viveros@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>July Rodríguez</td>
+              <td>Cobranza</td>
+              <td>Administración</td>
+              <td><span class="badge bg-dark">1013</span></td>
+              <td>
+                <a
+                  class="email-link"
+                  href="mailto:july.rodriguez@jarmedical.com"
+                  >july.rodriguez@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Federico Rocha</td>
+              <td>Analista de Sistemas</td>
+              <td>Administración</td>
+              <td><span class="badge bg-dark">1014</span></td>
+              <td>
+                <a class="email-link" href="mailto:sistemas@jarmedical.com"
+                  >sistemas@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Ing. Fidel Morales</td>
+              <td>Gerente de Proyectos</td>
+              <td>Administración</td>
+              <td><span class="badge bg-dark">1015</span></td>
+              <td>
+                <a class="email-link" href="mailto:fidel.morales@jarmedical.com"
+                  >fidel.morales@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Oficina Vacía</td>
+              <td>---</td>
+              <td>---</td>
+              <td><span class="badge bg-dark">1016</span></td>
+              <td><a class="email-link" href="#">#</a></td>
+            </tr>
+            <tr>
+              <td>No Disponible</td>
+              <td>No Disponible</td>
+              <td>Almacén</td>
+              <td><span class="badge bg-dark">1017</span></td>
+              <td><a class="email-link" href="#">#</a></td>
+            </tr>
+            <tr>
+              <td>Jair Hernandez</td>
+              <td>Coord. de Inventario</td>
+              <td>Almacén</td>
+              <td><span class="badge bg-dark">1018</span></td>
+              <td>
+                <a class="email-link" href="mailto:inventario@jarmedical.com"
+                  >inventario@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Oficina Almacen Vacía</td>
+              <td>---</td>
+              <td>---</td>
+              <td><span class="badge bg-dark">1019</span></td>
+              <td><a class="email-link" href="#">#</a></td>
+            </tr>
+            <tr>
+              <td>Juan García</td>
+              <td>Supervisor de Ventas</td>
+              <td>Ventas</td>
+              <td><span class="badge bg-dark">1020</span></td>
+              <td>
+                <a class="email-link" href="mailto:jgarcia@jarmedical.com"
+                  >jgarcia@jarmedical.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Sala de Juntas</td>
+              <td>Reunion</td>
+              <td>General</td>
+              <td><span class="badge bg-dark">1021</span></td>
+              <td><a class="email-link" href="#">#</a></td>
+            </tr>
+            <tr>
+              <td>Marcos Ramirez</td>
+              <td>Director Comercial</td>
+              <td>Ventas</td>
+              <td><span class="badge bg-dark">1022</span></td>
+              <td>
+                <a
+                  class="email-link"
+                  href="mailto:eduardo.ramirez@jarmedical.com"
+                  >eduardo.ramirez@jarmedical.com</a
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </main>
 
-
     <!-- Footer -->
-    <footer>
-        <div class="footer-left">
-            <img src="img/CERTIFICADO ISO.jpg" alt="Logo Footer" class="logo-footer">
-        </div>
-        <div class="footer-right">
-            <p>&copy; Jarmedical 2025. Todos los derechos reservados.</p>
-        </div>
+    <footer class="d-flex justify-content-between align-items-center flex-wrap">
+      <img
+        src="img/CERTIFICADO ISO.jpg"
+        alt="Certificado"
+        class="logo-footer img-fluid mb-2 mb-sm-0"
+        style="max-height: 70px; width: auto"
+      />
+      <p class="m-0" style="font-size: 1.1rem; font-weight: bold">
+        &copy; Jarmedical 2025. Todos los derechos reservados.
+      </p>
     </footer>
 
-    <!-- Vinculamos los scripts de Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
-</body>
+    <!-- Bootstrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jsPDF y html2canvas para PDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="pdf.js"></script>
+  </body>
 </html>
